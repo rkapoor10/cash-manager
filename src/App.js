@@ -113,7 +113,7 @@ export default function App() {
         </div>
         <hr />
         <footer>
-          <a class="link" href="https://github.com/rkapoor10" target="_blank">
+          <a class="link"href="https://github.com/rkapoor10/cash-manager" target="_blank">
             <img src="https://img.icons8.com/fluent/60/000000/github.png" />
           </a>
         </footer>
