@@ -37,7 +37,7 @@ export default function App() {
   }
 
   function onClickCalculate() {
-    if (Number.isInteger(billAmt) === false || billAmt < 0) {
+    if (Number.isInteger(billAmt) === false || billAmt <= 0) {
       setErrMsg("Please Enter Valid non-zero Amount");
       showOutput();
     } else {
