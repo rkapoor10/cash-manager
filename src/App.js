@@ -50,6 +50,7 @@ export default function App() {
           <>
             {/* OUTPUT */}
             <div className="box">Balance Cash : ₹{cashGiven - billAmt}</div>
+            <h4>Denominations: </h4>
             <table>
               <tbody>
                 <tr>
@@ -108,7 +109,7 @@ export default function App() {
           <br />
 
           <button onClick={onClickCalculate}>Calculate</button>
-
+          
           <div>{output}</div>
         </div>
         <hr />
